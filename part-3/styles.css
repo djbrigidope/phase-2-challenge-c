@@ -1,31 +1,60 @@
 h1 {
+  padding: 2% 2% 2% 2%;
   color: orange;
   font-size: 1.5em;
-  font family: helvetica, arial, sans-serif;
+  font-family: helvetica, arial, sans-serif;
 }
 
 body {
-  margin: 10% 10% 10% 10%;
+  margin: 3% 3% 3% 3%;
 }
 
 .toptopdiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   background-color: grey;
   height: 15%;
   width: 100%;
 }
 
-.topdiv {
+.minitoptopdiv1{
+  height: 8%;
+  background-color: yellow;
+  padding: 2% 2% 2% 2%;
+}
+
+.minitoptopdiv2{
+  height: 8%;
+  background-color: white;
+  padding: 2% 2% 2% 2%;
+}
+
+/*.topdiv {
   background-color: white;
   height: 15%;
   width: 100%;
-}
+}*/
+
 .maindiv {
-  background-color: grey;
-  height: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  height: 100%;
   width: 100%;
+}
+
+.leftkeydiv {
+  background-color: yellow;
+
+}
+
+.rightkeydiv {
+
 }
 .bottomdiv {
-  background-color: white;
+  background-color: grey;
   height: 15%;
   width: 100%;
 }
