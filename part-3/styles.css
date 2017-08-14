@@ -1,22 +1,50 @@
+/*body {
+  margin: 1% 1% 1% 1%;
+  padding: 1% 1% 1% 1%;
+}*/
+
 h1 {
+  /*padding: 1% 1% 1% 1%;*/
+  color: orange;
+  font-size: 1.5em;
+  font-family: helvetica, arial, sans-serif;
+}
+
+h2 {
   padding: 2% 2% 2% 2%;
   color: orange;
   font-size: 1.5em;
   font-family: helvetica, arial, sans-serif;
 }
 
-p {
+h3 {
+  color: black;
   font-size: .75em;
   font-family: helvetica, arial, sans-serif;
 }
 
-body {
-  margin: 3% 3% 3% 3%;
+h4 {
+  color: black;
+  font-size: .5em;
+  font-family: helvetica, arial, sans-serif;
+  padding: 0 1em 0 1em ;
+}
+
+.hbg {
+  padding: 3% 3% 3% 3%;
+  background-color: grey;
+  width: 100%;
+}
+
+p {
+  padding: 2%;
+  font-size: .75em;
+  font-family: helvetica, arial, sans-serif;
 }
 
 .toptopdiv {
   display: flex;
-  flex-direction: row;
+  /*flex-direction: row;*/
   justify-content: space-between;
   background-color: grey;
   height: 15%;
@@ -24,15 +52,15 @@ body {
 }
 
 .minitoptopdiv1{
-  height: 8%;
+  /*height: 8%;*/
   background-color: yellow;
-  padding: 2% 2% 2% 2%;
+  padding: 1% 1% 1% 1%;
 }
 
 .minitoptopdiv2{
-  height: 8%;
+  /*height: 8%;*/
   background-color: white;
-  padding: 2% 2% 2% 2%;
+  padding: 1% 1% 1% 1%;
 }
 
 /*.topdiv {
@@ -44,7 +72,7 @@ body {
 .maindiv {
   display: flex;
   /*flex-direction: column;*/
-  align-content: center;
+  /*align-content: center;*/
   background-color: white;
   height: 100%;
   width: 100%;
@@ -54,18 +82,24 @@ body {
   flex-grow: 1;
   background-color: yellow;
   padding: 2% 8% 4% 2%
+}
 
+.book {
+  display: inline-flex;
 }
 
 .rightkeydiv {
+  width: 30%;
   outline-color: black;
-  outline-style: ridge;
+  outline-style: solid;
   outline-width: thin;
-  padding: 2% 8% 4% 2%;
+  /*padding: 2% 2% 2% 2%;*/
 
 }
 .bottomdiv {
   background-color: grey;
   height: 15%;
   width: 100%;
+  margin: 1% 1% 1% 1%;
+  padding: 1% 1% 1% 1%;
 }
