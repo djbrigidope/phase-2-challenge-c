@@ -5,6 +5,11 @@ h1 {
   font-family: helvetica, arial, sans-serif;
 }
 
+p {
+  font-size: .75em;
+  font-family: helvetica, arial, sans-serif;
+}
+
 body {
   margin: 3% 3% 3% 3%;
 }
@@ -38,19 +43,25 @@ body {
 
 .maindiv {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  /*flex-direction: column;*/
+  align-content: center;
   background-color: white;
   height: 100%;
   width: 100%;
 }
 
 .leftkeydiv {
+  flex-grow: 1;
   background-color: yellow;
+  padding: 2% 8% 4% 2%
 
 }
 
 .rightkeydiv {
+  outline-color: black;
+  outline-style: ridge;
+  outline-width: thin;
+  padding: 2% 8% 4% 2%;
 
 }
 .bottomdiv {
