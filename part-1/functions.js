@@ -6,10 +6,9 @@ const assert = require('assert');
 //show day of the weak
  let cals = (d) => {
     let daay = d.getDay();
-
     switch (daay) {
       case 0:
-      return('Sunday');
+        return('Sunday');
         break;
       case 1:
         return('Monday');
@@ -30,7 +29,7 @@ const assert = require('assert');
         return('Saturday');
         break;
       default:
-          return('put daet');
+        return('put daet');
     }
 };
 console.log(cals(new Date(2017, 11, 31)));
@@ -42,4 +41,3 @@ console.log(cals(new Date(2017, 08, 19)));
 
 
 //whew
- }

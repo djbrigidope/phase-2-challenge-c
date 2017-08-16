@@ -2,7 +2,6 @@
 const fs = require('fs');
 const cars = fs.readFileSync('./cars.json'.toString());
 const carsObj = JSON.parse(cars);
-
 const input = process.argv[2];
 
 const modelFinder = model => {
