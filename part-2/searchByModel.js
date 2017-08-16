@@ -9,7 +9,7 @@ const modelFinder = model => {
   console.log('Finding cars under model: ' + model);
 
   let matchedModel = carsObj.filter(obj => obj.model.toLowerCase() === model.toLowerCase());
-
+  console.log(matchedModel);
   let type = matchedModel.map(obj => ({
     'id': obj.id,
     'make': obj.make,
