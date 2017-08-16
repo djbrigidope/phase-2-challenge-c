@@ -143,4 +143,4 @@ _Reminder: you can use the internet to help you answer these questions :)_
 
 ## Requirements
 
-- [ ] **50:** All questions are answered correctly.
+- [X] **50:** All questions are answered correctly.
