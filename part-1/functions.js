@@ -41,5 +41,5 @@ console.log(cals(new Date(2017, 08, 19)));
 // capitolize every 4th letter
 
  let cappEd = word => {
-
+//whew
  }
